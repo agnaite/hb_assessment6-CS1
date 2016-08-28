@@ -3,16 +3,15 @@
 ##Runtime
 
 ####When calculating the Big O notation for a particular algorithm, it’s necessary to consider the length of time it takes for the algorithm to run as the algorithm’s workload approaches infinity. You can think of the workload as the number of tasks required to complete a job. What determines the workload of figuring out whether your box of animal crackers contains an elephant?
-
-
+The workload would be determined by the method of identifying the elephant cracker. E.g. if you have to look at each cracker individually, it would be O(n), but if can dump all the crackers on a table and spot the elephant right away, it would be O(1).
 
 ####Order the following runtimes in ascending order by efficiency as n approaches infinity:
 1. O(1)
 2. O(log n)
-3. O(n log n)
-4. O(n)
-5. O(2n)
-6. O(n2)
+3. O(n)
+4. O(2n)
+5. O(n log n)
+6. O(n^2)
 
 
 
