@@ -95,6 +95,7 @@ class Tree(object):
 
         while to_visit:
             node = to_visit.pop(0)
+            print node
 
             if node.data == data:
                 return node

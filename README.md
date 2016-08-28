@@ -43,7 +43,7 @@ Apple + next, Berry + next, and Cherry + next are the nodes.
 The data for each node is "Apple", "Berry", and "Cherry".
 
 ####Where is the head? Where is the tail? 
-The head is the Apple node. The tail is the Cherry node point to None.
+The head is the Apple node. The tail is the Cherry node pointing to None.
 
 ![Image of Linked List](http://fellowship.hackbrightacademy.com/materials/skills/cs-data-struct-1/_images/graphviz-9d1bfe45f44c3720814826a4b6a956a85f2802e6.svg)
 
@@ -58,7 +58,7 @@ Instead of having to iterate over each node until you hit None, you can simply r
 ![Image of Linked List](http://fellowship.hackbrightacademy.com/materials/skills/cs-data-struct-1/_images/graphviz-e013ff86fe5c8eeebf4b3b0ae8bf151ce3262e54.svg)
 
 ####Given the tree above, in what order would a Breadth First Search (BFS) algorithm visit each node until finding burrito (starting at food)? Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer.
-Italian -> Indian -> Mexican -> ????
+Italian -> Indian -> Mexican -> lasagna -> pizza -> tikka masala -> saag -> burrito
 
 ####Given the tree above, in what order would a Depth First Search (DFS) algorithm visit each node until finding Chicago-style (starting at food)? Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer.
 Italian -> lasagna -> pizza -> thin crust -> Chicago-style
